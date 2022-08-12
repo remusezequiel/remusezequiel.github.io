@@ -1,7 +1,7 @@
 ---
-layout: post
 title: "Osciladores Longitudinales y Transversales"
-mathjax: true
+layout: posts
+category: Fisica de Ondas
 date: 2022-08-08 15:24:20 +0000
 ---
 
