@@ -10,4 +10,10 @@ var store = [{
         "tags": [],
         "url": "/fisica%20de%20ondas/2022/08/08/Oscilaciones_Long_y_Transversales.html",
         "teaser": null
+      },{
+        "title": "Oscilaciones Forzadas",
+        "excerpt":"Osilaciones Forzadas Vamos a ver cómo resolver el ejercicio 9 de la guía de repaso, esto nos va a ayudar a repasar el oscilador amortiguado y el forzado. Además vamos a usar algunas funciones de python para acostumbrarnos a esta nueva (para algunxs) herramienta. Tenemos un problema unidimensional de una...","categories": ["Fisica de Ondas"],
+        "tags": [],
+        "url": "/fisica%20de%20ondas/2022/08/12/Forzado_amortiguado.html",
+        "teaser": null
       }]

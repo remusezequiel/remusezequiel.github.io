@@ -30,6 +30,15 @@ var idx = lunr(function () {
       })
       
     
+      this.add({
+          title: "Oscilaciones Forzadas",
+          excerpt: "Osilaciones Forzadas Vamos a ver cómo resolver el ejercicio 9 de la guía de repaso, esto nos va a ayudar...",
+          categories: ["Fisica de Ondas"],
+          tags: [],
+          id: 2
+      })
+      
+    
   
 });
 
@@ -60,6 +69,17 @@ var store = [
         "title": "Osciladores Longitudinales y Transversales",
         "url": "http://localhost:4000/fisica%20de%20ondas/2022/08/08/Oscilaciones_Long_y_Transversales.html",
         "excerpt": "OSCILACIONES LONGITUDINALES Empecemos por simplicidad con las oscilaciones longitudinales. Al igual que con numpy, vamos a necesitar importar la libreria...",
+        "teaser":
+          
+            null
+          
+      },
+    
+      
+      {
+        "title": "Oscilaciones Forzadas",
+        "url": "http://localhost:4000/fisica%20de%20ondas/2022/08/12/Forzado_amortiguado.html",
+        "excerpt": "Osilaciones Forzadas Vamos a ver cómo resolver el ejercicio 9 de la guía de repaso, esto nos va a ayudar...",
         "teaser":
           
             null
