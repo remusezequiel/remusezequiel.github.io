@@ -8,7 +8,7 @@ permalink: /about/
 
 # Hablemos de la pagina
 
-<img src="{{"/assets/images/portada_EW.jpg"|absolute_url}}" width="50%" hspace="20" align="right">
+<img src="/assets/images/portada_EW.jpg" width="50%" hspace="20" align="right">
   
 Mi nombre es Ezequiel Remus. Soy estudiante de Ciencias Fisicas y Ciencia de Datos en la Universdidad de Buenos Aires.
  
