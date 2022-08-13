@@ -8,8 +8,7 @@ permalink: /about/
 
 # Hablemos de la pagina
 
-<img src="{{ "/assets/images/portada_EW.jpg" | absolute_url }}"
-width="50%" hspace="20" align="right">
+<img src="{{"/assets/images/portada_EW.jpg"|absolute_url}}" width="50%" hspace="20" align="right">
   
 Mi nombre es Ezequiel Remus. Soy estudiante de Ciencias Fisicas y Ciencia de Datos en la Universdidad de Buenos Aires.
  
@@ -21,16 +20,3 @@ Tambien esta dedicada al almacenamiento de apuntes con dos objetivos principales
 
 
   
-[1]mailto: ezequielremus@gmail.com
-
-[2]: /assets/docs/thesis.pdf
-
-[3]: https://www.zendust.org/monastery
-
-[4]: /assets/docs/resume.pdf
-
-[5]: https://www.entelligent.com
-
-[6]: https://www.thetradedesk.com
-
-[7]: https://multithreaded.stitchfix.com/algorithms/
