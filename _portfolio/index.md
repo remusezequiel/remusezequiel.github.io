@@ -18,17 +18,16 @@ feature_row:
 # Portfolio
 
 
-En esta sección voy a ir poniendo proyectos, a modo de presentacion de proyectos mas representativos y que 
-son representativos de mis "skills" y tambien de lo que es de mi interes.
+Esta sección esta dedicada a proyectos realizados tanto para el ambito de mis estudios como
+para cuestiones autonomas.
 
-Here you'll find summaries of the major projects I've done over the years, which
-are representative of my skills and interests. Estos proyectos abarcan un poco de todo, tanto practico como teorico.
+ Estos proyectos abarcan un poco de todo, tanto practico como teorico.
 
 Se puede ver más de mi en este [curriculum vitae][1]. 
 
 
 
-<div style="margin-bottom:1cm" align="center"><font size="55">Selected Projects</font></div>
+<div style="margin-bottom:1cm" align="center"><font size="55"> Proyectos </font></div>
 
 {% include feature_row %}
 

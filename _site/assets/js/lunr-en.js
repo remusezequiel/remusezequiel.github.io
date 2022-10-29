@@ -11,7 +11,7 @@ var idx = lunr(function () {
     
       this.add({
           title: " ",
-          excerpt: "Portfolio En esta sección voy a ir poniendo proyectos, a modo de presentacion de proyectos mas representativos y que son...",
+          excerpt: "Portfolio Esta sección esta dedicada a proyectos realizados tanto para el ambito de mis estudios como para cuestiones autonomas. Estos...",
           categories: [],
           tags: [],
           id: 0
@@ -53,7 +53,7 @@ var store = [
       {
         "title": " ",
         "url": "http://localhost:4000/portfolio/index.html",
-        "excerpt": "Portfolio En esta sección voy a ir poniendo proyectos, a modo de presentacion de proyectos mas representativos y que son...",
+        "excerpt": "Portfolio Esta sección esta dedicada a proyectos realizados tanto para el ambito de mis estudios como para cuestiones autonomas. Estos...",
         "teaser":
           
             null

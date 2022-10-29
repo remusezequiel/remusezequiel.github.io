@@ -1,6 +1,6 @@
 var store = [{
         "title": " ",
-        "excerpt":"Portfolio En esta sección voy a ir poniendo proyectos, a modo de presentacion de proyectos mas representativos y que son representativos de mis “skills” y tambien de lo que es de mi interes. Here you’ll find summaries of the major projects I’ve done over the years, which are representative of...","categories": [],
+        "excerpt":"Portfolio Esta sección esta dedicada a proyectos realizados tanto para el ambito de mis estudios como para cuestiones autonomas. Estos proyectos abarcan un poco de todo, tanto practico como teorico. Se puede ver más de mi en este curriculum vitae. Proyectos TP Aeropuertos Analisis de Datos sobre vuelos realizados en...","categories": [],
         "tags": [],
         "url": "/portfolio/index.html",
         "teaser": null

@@ -11,5 +11,9 @@ permalink: /apuntes/
 En esta seccion ire almacenando apuntes tanto teoricos como practios de la carrera.
 
 
-[1]: /assets/docs/resume.pdf
+### Resumen De Teoría de Álgebra Lineal
+- [Álgebra Lineal](/assets/docs/Resumen_Teorico_De_Algebra_Lineal.pdf "Álgebra Lineal")
+
+### Magnetostática
+- [Magnetostatica](/assets/docs/Magnetismo.pdf "Magnetostática")
 
