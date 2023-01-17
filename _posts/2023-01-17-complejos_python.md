@@ -1,8 +1,9 @@
 ---
 title: "Complejos en python"
-layout: posts
-category: Python
+category: posts
 date: 2023-01-17 18:32:20 +0000
+excerpt: "Jugamos un poco con numeros complejos en python."
+comments: true
 ---
 
 # Manejo de numeros complejos en python

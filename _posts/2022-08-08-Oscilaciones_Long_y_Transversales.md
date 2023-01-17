@@ -1,9 +1,9 @@
 ---
 title: "Osciladores Longitudinales y Transversales"
-layout: posts
-category: Fisica de Ondas
+category: posts
 date: 2022-08-08 15:24:20 +0000
-excerpt: Analizamos las diferencias entre oscilaciones Longitudinales y Transversales.
+excerpt: "Analizamos las diferencias entre oscilaciones Longitudinales y Transversales."
+comments: true
 ---
 
 

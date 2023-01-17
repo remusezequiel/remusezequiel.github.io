@@ -1,9 +1,9 @@
 ---
 title: "Oscilaciones Forzadas"
-layout: posts
-category: Fisica de Ondas
+category: posts
 date: 2022-08-12 18:32:20 +0000
-excerpt: Analizamos el problema de oscilaciones forzadas en una dimensión.
+excerpt: "Analizamos el problema de oscilaciones forzadas en una dimensión."
+comments: true
 ---
 
 ## Osilaciones Forzadas
@@ -71,8 +71,7 @@ Ahora tenemos que reemplazar todo en (1). De nuevo, varios pasos intermedios les
 
 $$
 \begin{eqnarray}
-0=\color{#21ABCD}C \color{#FF007F}{e^{-t/2\tau}} \left[\frac{1}{2\tau}\left (\frac{\cos(\omega_1 t+\theta)}{2\tau}+\omega_1\sin(\omega_1 t+\theta) \right )+\frac{\omega_1}{2\tau}\sin(\omega_1 t+\theta)-\omega_1^2\cos(\omega_1 t+\theta)\right ]-\Gamma \color{#21ABCD}C \color{#FF007F}{e^{-t/2\tau}} \left(\frac{1}{2\tau}\cos(\omega_1 t+\theta)+\omega_1\sin(\omega_1 t+\theta) \right ) +\omega_0^2\color{#21ABCD}C \color{#FF007F}{e^{-t/2\tau}} \cos(\omega_1 t+\theta)
-\end{eqnarray}
+0=\color{#21ABCD}C \color{#FF007F}{e^{-t/2\tau}} \left[\frac{1}{2\tau}\left (\frac{\cos(\omega_1 t+\theta)}{2\tau}+\omega_1\sin(\omega_1 t+\theta) \right )+\frac{\omega_1}{2\tau}\sin(\omega_1 t+\theta) -\omega_1^2\cos(\omega_1 t+\theta)\right ]-\Gamma \color{#21ABCD}C \color{#FF007F}{e^{-t/2\tau}} \left(\frac{1}{2\tau}\cos(\omega_1 t+\theta)+\omega_1\sin(\omega_1 t+\theta) \right ) +\omega_0^2\color{#21ABCD}C \color{#FF007F}{e^{-t/2\tau}} \cos(\omega_1 t+\theta)\end{eqnarray}
 $$
 
 Los términos que están en color los podemos cancelar dado que toda la ecuación está igualada a $$0$$. ¿*Deberíamos tener algún cuidado al hacer esto*?

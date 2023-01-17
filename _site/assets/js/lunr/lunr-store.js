@@ -6,20 +6,20 @@ var store = [{
         "teaser": null
       },{
         "title": "Osciladores Longitudinales y Transversales",
-        "excerpt":"OSCILACIONES LONGITUDINALES Empecemos por simplicidad con las oscilaciones longitudinales. Al igual que con numpy, vamos a necesitar importar la libreria de matplotlib, y como deciamos en particular la sublibreria pyplot. Para simplificar, cuando querramos llamar a esta libreria la llamaremos como plt. import numpy as np import matplotlib.pyplot as plt...","categories": ["Fisica de Ondas"],
+        "excerpt":"OSCILACIONES LONGITUDINALES Empecemos por simplicidad con las oscilaciones longitudinales. Al igual que con numpy, vamos a necesitar importar la libreria de matplotlib, y como deciamos en particular la sublibreria pyplot. Para simplificar, cuando querramos llamar a esta libreria la llamaremos como plt. import numpy as np import matplotlib.pyplot as plt...","categories": ["posts"],
         "tags": [],
-        "url": "/fisica%20de%20ondas/2022/08/08/Oscilaciones_Long_y_Transversales.html",
+        "url": "/posts/2022/08/08/Oscilaciones_Long_y_Transversales.html",
         "teaser": null
       },{
         "title": "Oscilaciones Forzadas",
-        "excerpt":"Osilaciones Forzadas Vamos a ver cómo resolver el ejercicio 9 de la guía de repaso, esto nos va a ayudar a repasar el oscilador amortiguado y el forzado. Además vamos a usar algunas funciones de python para acostumbrarnos a esta nueva (para algunxs) herramienta. Tenemos un problema unidimensional de una...","categories": ["Fisica de Ondas"],
+        "excerpt":"Osilaciones Forzadas Vamos a ver cómo resolver el ejercicio 9 de la guía de repaso, esto nos va a ayudar a repasar el oscilador amortiguado y el forzado. Además vamos a usar algunas funciones de python para acostumbrarnos a esta nueva (para algunxs) herramienta. Tenemos un problema unidimensional de una...","categories": ["posts"],
         "tags": [],
-        "url": "/fisica%20de%20ondas/2022/08/12/Forzado_amortiguado.html",
+        "url": "/posts/2022/08/12/Forzado_amortiguado.html",
         "teaser": null
       },{
         "title": "Complejos en python",
-        "excerpt":"Manejo de numeros complejos en python Recordemos que cuando queremos resolver ciertas ecuaciónes tales como \\(x^2 + 1=0\\) estas no tienen solución. Para esto en matematicas se introducen los números complejos que son numeros de la forma \\(z=x+ i y\\) Python trae por defecto una forma de utilizar estos numeros...","categories": ["Python"],
+        "excerpt":"Manejo de numeros complejos en python Recordemos que cuando queremos resolver ciertas ecuaciónes tales como \\(x^2 + 1=0\\) estas no tienen solución. Para esto en matematicas se introducen los números complejos que son numeros de la forma \\(z=x+ i y\\) Python trae por defecto una forma de utilizar estos numeros...","categories": ["posts"],
         "tags": [],
-        "url": "/python/2023/01/17/complejos_python.html",
+        "url": "/posts/2023/01/17/complejos_python.html",
         "teaser": null
       }]

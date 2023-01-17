@@ -2,8 +2,6 @@
 main:
   - title: "Home"
     url: /
-  - title: "Blog"
-    url: /blog/
   - title: "About"
     url: /about/
   - title: "Apuntes"
@@ -18,11 +16,11 @@ main:
 
 
 # sidebar for portfolio
-#portfolio:
-#  - title: "Projects"
-#    children:
-#      - title: "Machine Learning on AWS"
-#        url: /portfolio/coming/
+portfolio:
+  - title: "Projectos"
+    children:
+      - title: "Tp Aeropuertos"
+        url: "https://remusezequiel.github.io/TP_Aeropuertos"
 #      - title: "Anomaly Detection in Social Networks"
 #        url: /portfolio/social-networks/
 #      - title: "NetComp: Python Network Comparison"

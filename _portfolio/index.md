@@ -1,7 +1,7 @@
 ---
 classes: wide
 header:
-  overlay_image: /assets/images/head.jpg
+  overlay_image: /assets/images/headArboles.jpg
 permalink: /portfolio/index.html
 date: 2022-08-08
 

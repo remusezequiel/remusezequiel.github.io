@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Oscilaciones Forzadas - RemusEzequiel</title>
-<meta name="description" content="Osilaciones Forzadas">
+<meta name="description" content="Analizamos el problema de oscilaciones forzadas en una dimensión.">
 
 
   <meta name="author" content="Ezequiel Remus">
@@ -23,10 +23,10 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="RemusEzequiel">
 <meta property="og:title" content="Oscilaciones Forzadas">
-<meta property="og:url" content="http://localhost:4000/fisica%20de%20ondas/2022/08/12/Forzado_amortiguado.html">
+<meta property="og:url" content="http://localhost:4000/posts/2022/08/12/Forzado_amortiguado.html">
 
 
-  <meta property="og:description" content="Osilaciones Forzadas">
+  <meta property="og:description" content="Analizamos el problema de oscilaciones forzadas en una dimensión.">
 
 
 
@@ -41,7 +41,7 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/fisica%20de%20ondas/2022/08/12/Forzado_amortiguado.html">
+<link rel="canonical" href="http://localhost:4000/posts/2022/08/12/Forzado_amortiguado.html">
 
 
 
@@ -92,7 +92,7 @@
 
   </head>
 
-  <body class="layout--posts">
+  <body class="layout--single">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -114,8 +114,6 @@
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/">Home</a>
-            </li><li class="masthead__menu-item">
-              <a href="/blog/">Blog</a>
             </li><li class="masthead__menu-item">
               <a href="/about/">About</a>
             </li><li class="masthead__menu-item">
@@ -139,6 +137,8 @@
 
     <div class="initial-content">
       
+
+
 
 
 
@@ -264,11 +264,36 @@
 
 
 
-  <div class="archive">
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Oscilaciones Forzadas">
+    <meta itemprop="description" content="Analizamos el problema de oscilaciones forzadas en una dimensión.">
+    <meta itemprop="datePublished" content="2022-08-12T15:32:20-03:00">
     
-      <h1 id="page-title" class="page__title">Oscilaciones Forzadas</h1>
-    
-    <h2 id="osilaciones-forzadas">Osilaciones Forzadas</h2>
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/posts/2022/08/12/Forzado_amortiguado.html" class="u-url" itemprop="url">Oscilaciones Forzadas
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Contents</h4></header>
+              <ul class="toc__menu"><li><a href="#osilaciones-forzadas">Osilaciones Forzadas</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="osilaciones-forzadas">Osilaciones Forzadas</h2>
 
 <p>Vamos a ver cómo resolver el ejercicio 9 de la guía de repaso, esto nos va a ayudar a repasar el oscilador amortiguado y el forzado. Además vamos a usar algunas funciones de python para acostumbrarnos a esta nueva (para algunxs) herramienta.</p>
 
@@ -327,8 +352,7 @@ m\ddot{x}=-k(x-l_0)-\gamma \dot{x} <br />
 <p>Ahora tenemos que reemplazar todo en (1). De nuevo, varios pasos intermedios les quedan a ustedes.</p>
 
 \[\begin{eqnarray}
-0=\color{#21ABCD}C \color{#FF007F}{e^{-t/2\tau}} \left[\frac{1}{2\tau}\left (\frac{\cos(\omega_1 t+\theta)}{2\tau}+\omega_1\sin(\omega_1 t+\theta) \right )+\frac{\omega_1}{2\tau}\sin(\omega_1 t+\theta)-\omega_1^2\cos(\omega_1 t+\theta)\right ]-\Gamma \color{#21ABCD}C \color{#FF007F}{e^{-t/2\tau}} \left(\frac{1}{2\tau}\cos(\omega_1 t+\theta)+\omega_1\sin(\omega_1 t+\theta) \right ) +\omega_0^2\color{#21ABCD}C \color{#FF007F}{e^{-t/2\tau}} \cos(\omega_1 t+\theta)
-\end{eqnarray}\]
+0=\color{#21ABCD}C \color{#FF007F}{e^{-t/2\tau}} \left[\frac{1}{2\tau}\left (\frac{\cos(\omega_1 t+\theta)}{2\tau}+\omega_1\sin(\omega_1 t+\theta) \right )+\frac{\omega_1}{2\tau}\sin(\omega_1 t+\theta) -\omega_1^2\cos(\omega_1 t+\theta)\right ]-\Gamma \color{#21ABCD}C \color{#FF007F}{e^{-t/2\tau}} \left(\frac{1}{2\tau}\cos(\omega_1 t+\theta)+\omega_1\sin(\omega_1 t+\theta) \right ) +\omega_0^2\color{#21ABCD}C \color{#FF007F}{e^{-t/2\tau}} \cos(\omega_1 t+\theta)\end{eqnarray}\]
 
 <p>Los términos que están en color los podemos cancelar dado que toda la ecuación está igualada a \(0\). ¿<em>Deberíamos tener algún cuidado al hacer esto</em>?</p>
 
@@ -600,115 +624,43 @@ Ahora viene la parte más interesante. Podemos ver que \(\omega_1\) depende de d
 <p>Seguramente ya les habrán contado muchas cosas y mostrado muchos videos de cosas que se rompen por resonancia, sino les dejo algunos videitos del <a href="https://www.youtube.com/watch?v=3mclp9QmCGs">puente de Tacoma</a> y <a href="https://www.youtube.com/watch?v=0GEj69NANc8">de un helicoptero que se rompe</a>. La resonancia es un tema que va a aparecer un montón en la carrera y la idea es tan simple como la que acaban de ver (aunque las cuentas no tanto). ¿Se les ocurre porqué estas cosas se rompen? Piensenlo y nos lo cuentan por el campus.</p>
 
 
+        
+      </section>
 
-<ul class="taxonomy__index">
-  
-  
-    <li>
-      <a href="#2023">
-        <strong>2023</strong> <span class="taxonomy__count">1</span>
-      </a>
-    </li>
-  
-    <li>
-      <a href="#2022">
-        <strong>2022</strong> <span class="taxonomy__count">2</span>
-      </a>
-    </li>
-  
-</ul>
-
-
-
-
-  <section id="2023" class="taxonomy__section">
-    <h2 class="archive__subtitle">2023</h2>
-    <div class="entries-list">
-      
+      <footer class="page__meta">
+        
         
 
 
+        
 
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2022-08-12T15:32:20-03:00">August 12, 2022</time></p>
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
     
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/python/2023/01/17/complejos_python.html" rel="permalink">Complejos en python
-</a>
-      
-    </h2>
+      <a href="/posts/2022/08/08/Oscilaciones_Long_y_Transversales.html" class="pagination--pager" title="Osciladores Longitudinales y Transversales
+">Previous</a>
     
+    
+      <a href="/posts/2023/01/17/complejos_python.html" class="pagination--pager" title="Complejos en python
+">Next</a>
+    
+  </nav>
 
-
-    <p class="archive__item-excerpt" itemprop="description">Manejo de numeros complejos en python
-
-</p>
-  </article>
-</div>
-
-      
     </div>
-    <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
-  </section>
 
-  <section id="2022" class="taxonomy__section">
-    <h2 class="archive__subtitle">2022</h2>
-    <div class="entries-list">
-      
-        
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/fisica%20de%20ondas/2022/08/12/Forzado_amortiguado.html" rel="permalink">Oscilaciones Forzadas
-</a>
-      
-    </h2>
-    
-
-
-    <p class="archive__item-excerpt" itemprop="description">Osilaciones Forzadas
-
-</p>
   </article>
+
+  
+  
 </div>
 
-      
-        
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/fisica%20de%20ondas/2022/08/08/Oscilaciones_Long_y_Transversales.html" rel="permalink">Osciladores Longitudinales y Transversales
-</a>
-      
-    </h2>
-    
-
-
-    <p class="archive__item-excerpt" itemprop="description">
-
-</p>
-  </article>
-</div>
-
-      
-    </div>
-    <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
-  </section>
-
-
-  </div>
-</div>
     </div>
 
     

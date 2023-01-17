@@ -23,3 +23,7 @@ En esta seccion ire almacenando apuntes tanto teoricos como practios de la carre
   - [Magnetostatica](/assets/docs/Magnetismo.pdf "Magnetostática")
 
 ## Apuntes de Python
+
+- ### Codigo en Github
+
+  - [Python](https://github.com/remusezequiel/Python)  

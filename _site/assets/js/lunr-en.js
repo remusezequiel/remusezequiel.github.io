@@ -24,7 +24,7 @@ var idx = lunr(function () {
       this.add({
           title: "Osciladores Longitudinales y Transversales",
           excerpt: "OSCILACIONES LONGITUDINALES Empecemos por simplicidad con las oscilaciones longitudinales. Al igual que con numpy, vamos a necesitar importar la libreria...",
-          categories: ["Fisica de Ondas"],
+          categories: ["posts"],
           tags: [],
           id: 1
       })
@@ -33,7 +33,7 @@ var idx = lunr(function () {
       this.add({
           title: "Oscilaciones Forzadas",
           excerpt: "Osilaciones Forzadas Vamos a ver cómo resolver el ejercicio 9 de la guía de repaso, esto nos va a ayudar...",
-          categories: ["Fisica de Ondas"],
+          categories: ["posts"],
           tags: [],
           id: 2
       })
@@ -42,7 +42,7 @@ var idx = lunr(function () {
       this.add({
           title: "Complejos en python",
           excerpt: "Manejo de numeros complejos en python Recordemos que cuando queremos resolver ciertas ecuaciónes tales como \\(x^2 + 1=0\\) estas no...",
-          categories: ["Python"],
+          categories: ["posts"],
           tags: [],
           id: 3
       })
@@ -76,7 +76,7 @@ var store = [
       
       {
         "title": "Osciladores Longitudinales y Transversales",
-        "url": "http://localhost:4000/fisica%20de%20ondas/2022/08/08/Oscilaciones_Long_y_Transversales.html",
+        "url": "http://localhost:4000/posts/2022/08/08/Oscilaciones_Long_y_Transversales.html",
         "excerpt": "OSCILACIONES LONGITUDINALES Empecemos por simplicidad con las oscilaciones longitudinales. Al igual que con numpy, vamos a necesitar importar la libreria...",
         "teaser":
           
@@ -87,7 +87,7 @@ var store = [
       
       {
         "title": "Oscilaciones Forzadas",
-        "url": "http://localhost:4000/fisica%20de%20ondas/2022/08/12/Forzado_amortiguado.html",
+        "url": "http://localhost:4000/posts/2022/08/12/Forzado_amortiguado.html",
         "excerpt": "Osilaciones Forzadas Vamos a ver cómo resolver el ejercicio 9 de la guía de repaso, esto nos va a ayudar...",
         "teaser":
           
@@ -98,7 +98,7 @@ var store = [
       
       {
         "title": "Complejos en python",
-        "url": "http://localhost:4000/python/2023/01/17/complejos_python.html",
+        "url": "http://localhost:4000/posts/2023/01/17/complejos_python.html",
         "excerpt": "Manejo de numeros complejos en python Recordemos que cuando queremos resolver ciertas ecuaciónes tales como \\(x^2 + 1=0\\) estas no...",
         "teaser":
           
