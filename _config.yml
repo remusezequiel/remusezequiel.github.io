@@ -8,7 +8,6 @@ repository: "remusezequiel/remusezequiel.github.io"
 
 include:
   - _pages
-  - _blog
   - assets
   - index.html
 exclude:
