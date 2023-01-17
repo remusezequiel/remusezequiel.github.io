@@ -3,6 +3,7 @@ title: "Oscilaciones Forzadas"
 layout: posts
 category: Fisica de Ondas
 date: 2022-08-12 18:32:20 +0000
+excerpt: Analizamos el problema de oscilaciones forzadas en una dimensión.
 ---
 
 ## Osilaciones Forzadas
