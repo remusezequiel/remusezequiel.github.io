@@ -10,10 +10,16 @@ permalink: /apuntes/
 
 En esta seccion ire almacenando apuntes tanto teoricos como practios de la carrera.
 
+## Apuntes de Matematicas
 
-### Resumen De Teoría de Álgebra Lineal
-- [Álgebra Lineal](/assets/docs/Resumen_Teorico_De_Algebra_Lineal.pdf "Álgebra Lineal")
+- ### Resumen De Teoría de Álgebra Lineal
+  
+  - [Álgebra Lineal](/assets/docs/Resumen_Teorico_De_Algebra_Lineal.pdf "Álgebra Lineal")
 
-### Magnetostática
-- [Magnetostatica](/assets/docs/Magnetismo.pdf "Magnetostática")
+## Apuntes de Fisica
 
+- ### Magnetostática
+  
+  - [Magnetostatica](/assets/docs/Magnetismo.pdf "Magnetostática")
+
+## Apuntes de Python
