@@ -16,4 +16,10 @@ var store = [{
         "tags": [],
         "url": "/fisica%20de%20ondas/2022/08/12/Forzado_amortiguado.html",
         "teaser": null
+      },{
+        "title": "Complejos en python",
+        "excerpt":"Manejo de numeros complejos en python Recordemos que cuando queremos resolver ciertas ecuaciónes tales como \\(x^2 + 1=0\\) estas no tienen solución. Para esto en matematicas se introducen los números complejos que son numeros de la forma \\(z=x+ i y\\) Python trae por defecto una forma de utilizar estos numeros...","categories": ["Python"],
+        "tags": [],
+        "url": "/python/2023/01/17/complejos_python.html",
+        "teaser": null
       }]

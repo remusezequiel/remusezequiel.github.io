@@ -8,6 +8,7 @@ repository: "remusezequiel/remusezequiel.github.io"
 
 include:
   - _pages
+  - _blog
   - assets
   - index.html
 exclude:
@@ -51,7 +52,7 @@ analytics:
 
 
 # pagination for blog page
-paginate: 10 # number of posts to show
+paginate: 1 # number of posts to show
 paginate_path: /page:num/
 
 # default YAML front matter

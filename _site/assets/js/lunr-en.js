@@ -39,6 +39,15 @@ var idx = lunr(function () {
       })
       
     
+      this.add({
+          title: "Complejos en python",
+          excerpt: "Manejo de numeros complejos en python Recordemos que cuando queremos resolver ciertas ecuaciónes tales como \\(x^2 + 1=0\\) estas no...",
+          categories: ["Python"],
+          tags: [],
+          id: 3
+      })
+      
+    
   
 });
 
@@ -80,6 +89,17 @@ var store = [
         "title": "Oscilaciones Forzadas",
         "url": "http://localhost:4000/fisica%20de%20ondas/2022/08/12/Forzado_amortiguado.html",
         "excerpt": "Osilaciones Forzadas Vamos a ver cómo resolver el ejercicio 9 de la guía de repaso, esto nos va a ayudar...",
+        "teaser":
+          
+            null
+          
+      },
+    
+      
+      {
+        "title": "Complejos en python",
+        "url": "http://localhost:4000/python/2023/01/17/complejos_python.html",
+        "excerpt": "Manejo de numeros complejos en python Recordemos que cuando queremos resolver ciertas ecuaciónes tales como \\(x^2 + 1=0\\) estas no...",
         "teaser":
           
             null
