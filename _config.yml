@@ -38,11 +38,17 @@ author:
   email  : ezequielremus@gmail.com
 
 
+# site footer
+footer:
+  links:
+    - label: "Github"
+      # icon: "fab fa-fw fagithub"
+      url: "https://github.com/remusezequiel"
+
 # # comments by disqus
 comments:
   provider: "disqus"
-  #disqus:
-  #  shortname: "pwills-com"
+  
 
 analytics:
   provider: "google"
@@ -88,3 +94,11 @@ defaults:
 collections:
   portfolio:
     output: true
+
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
