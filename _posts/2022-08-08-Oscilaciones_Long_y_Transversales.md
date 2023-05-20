@@ -1,16 +1,9 @@
 ---
 title: "Osciladores Longitudinales y Transversales"
-category: [Physics, Wave Physics]
+category: posts
 date: 2022-08-08 15:24:20 +0000
 excerpt: "Analizamos las diferencias entre oscilaciones Longitudinales y Transversales."
 comments: true
-tags: [Fisica de Ondas]
-pin: true
-math: true
-mermaid: true
-
-image:
-  path: /assets/img/2022-08-08/output_11_0.png
 ---
 
 
@@ -81,7 +74,7 @@ plt.plot(t, psi_l);
 
 
     
-![png](/assets/img/2022-08-08/output_11_0.png)
+![png](/assets/images/2022-08-08/output_11_0.png)
     
 
 
@@ -108,7 +101,7 @@ plt.legend()
 
 
     
-![png](/assets/img/2022-08-08/output_12_1.png)
+![png](/assets/images/2022-08-08/output_12_1.png)
     
 
 
@@ -168,7 +161,7 @@ plt.plot(t, psi_t)
 
 
     
-![png](/assets/img/2022-08-08/output_19_2.png)
+![png](/assets/images/2022-08-08/output_19_2.png)
     
 
 
@@ -194,7 +187,7 @@ plt.plot(t, psi_t.imag)  #psi.imag es para pedir la parte imaginaria del vector 
 
 
     
-![png](/assets/img/2022-08-08/output_21_1.png)
+![png](/assets/images/2022-08-08/output_21_1.png)
     
 
 
@@ -222,7 +215,7 @@ prop = {'size': 10}, loc='upper right');
 
 
     
-![png](/assets/img/2022-08-08/output_24_0.png)
+![png](/assets/images/2022-08-08/output_24_0.png)
     
 
 

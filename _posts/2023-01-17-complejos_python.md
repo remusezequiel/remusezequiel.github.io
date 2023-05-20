@@ -4,13 +4,6 @@ category: posts
 date: 2023-01-17 18:32:20 +0000
 excerpt: "Jugamos un poco con numeros complejos en python."
 comments: true
-categories: [Matemaricas, Analisis Complejo]
-tags: [Analisis Complejos, Python]
-pin: true
-math: true
-mermaid: true
-image:
-  path: /assets/img/2023-01-17/output_16_1.png
 ---
 
 # Manejo de numeros complejos en python
@@ -178,7 +171,7 @@ z1_binomica = z1_modulo * (np.e ** (1j * z1_rad)) # Debe estar en radianes
 print(f"La forma binomica es: {z1_binomica}")
 ```
 
-La forma binomica es: (3+5j)
+    La forma binomica es: (3+5j)
 
 
 
@@ -218,7 +211,9 @@ plt.show()
 ```
 
 
-![png](/assets/img/2023-01-17/output_14_0.png)
+    
+
+![png](/assets/images/2023-01-17/output_14_0.png)
     
 
 
@@ -262,14 +257,14 @@ ax.set_ylabel("$\mathrm{Im}(z)$", fontsize=16)
 
 
 
-Text(0, 0.5, '$\\mathrm{Im}(z)$')
+    Text(0, 0.5, '$\\mathrm{Im}(z)$')
 
 
 
 
     
 
-![png](/assets/img/2023-01-17/output_16_1.png)
+![png](/assets/images/2023-01-17/output_16_1.png)
     
 
 
@@ -306,8 +301,11 @@ plt.show()
 
 
     
-![png](/assets/img/2023-01-17/output_18_0.png)
+![png](/assets/images/2023-01-17/output_18_0.png)
     
 
 
 
+```python
+
+```

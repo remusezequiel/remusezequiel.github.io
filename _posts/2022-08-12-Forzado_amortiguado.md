@@ -4,13 +4,6 @@ category: posts
 date: 2022-08-12 18:32:20 +0000
 excerpt: "Analizamos el problema de oscilaciones forzadas en una dimensión."
 comments: true
-categories: [Physics, Python]
-tags: [Fisica de Ondas]
-pin: true
-math: true
-mermaid: true
-image:
-  path: https://drive.google.com/uc?id=1z-yq5AwCmI0Ox6I0zcllVYq6v6W4686J
 ---
 
 ## Osilaciones Forzadas
@@ -24,7 +17,7 @@ En física 1 solían poner el eje x con el origen en la pared.
 
 <figure>
 <center>
-<img src='https://drive.google.com/uc?id=1z-yq5AwCmI0Ox6I0zcllVYq6v6W4686J'  width="300" height="100"/>
+<img src='https://drive.google.com/uc?id=1z-yq5AwCmI0Ox6I0zcllVYq6v6W4686J'  width="" height="200"/>
 </center>
 </figure>
 
@@ -46,7 +39,7 @@ Para hacerlo más sencillo, les propongo que este ejercicio lo encaremos con el 
 
 <figure>
 <center>
-<img src='https://drive.google.com/uc?id=1Ax5bCuls6pl-jjbQrcOb7r2-3Ws9kxAB'  width="300" height="100"/>
+<img src='https://drive.google.com/uc?id=1Ax5bCuls6pl-jjbQrcOb7r2-3Ws9kxAB'  width="" height="200"/>
 </center>
 </figure>
 
