@@ -1,9 +1,12 @@
 ---
+layout: post
 title: "Osciladores Longitudinales y Transversales"
-category: posts
+category: [Fisica, Fisica de Ondas]
+tags: [Fisica,Python]
 date: 2022-08-08 15:24:20 +0000
 excerpt: "Analizamos las diferencias entre oscilaciones Longitudinales y Transversales."
 comments: true
+image: /2022-08-08/output_11_0.png
 ---
 
 
@@ -74,7 +77,7 @@ plt.plot(t, psi_l);
 
 
     
-![png](/assets/images/2022-08-08/output_11_0.png)
+![png](/assets/img/2022-08-08/output_11_0.png)
     
 
 
@@ -95,13 +98,13 @@ plt.legend()
 
 
 
-    <matplotlib.legend.Legend at 0x7f1364689b10>
+<matplotlib.legend.Legend at 0x7f1364689b10>
 
 
 
 
     
-![png](/assets/images/2022-08-08/output_12_1.png)
+![png](/assets/img/2022-08-08/output_12_1.png)
     
 
 
@@ -148,20 +151,20 @@ plt.ylabel('Desp. osc. trasnversal [m]', fontsize=12)
 plt.plot(t, psi_t)
 ```
 
-    /usr/local/lib/python3.7/dist-packages/matplotlib/cbook/__init__.py:1317: ComplexWarning: Casting complex values to real discards the imaginary part
-      return np.asarray(x, float)
+/usr/local/lib/python3.7/dist-packages/matplotlib/cbook/__init__.py:1317: ComplexWarning: Casting complex values to real discards the imaginary part
+  return np.asarray(x, float)
 
 
 
 
 
-    [<matplotlib.lines.Line2D at 0x7f1364470610>]
+[<matplotlib.lines.Line2D at 0x7f1364470610>]
 
 
 
 
     
-![png](/assets/images/2022-08-08/output_19_2.png)
+![png](/assets/img/2022-08-08/output_19_2.png)
     
 
 
@@ -181,13 +184,13 @@ plt.plot(t, psi_t.imag)  #psi.imag es para pedir la parte imaginaria del vector 
 
 
 
-    [<matplotlib.lines.Line2D at 0x7f13643ec050>]
+[<matplotlib.lines.Line2D at 0x7f13643ec050>]
 
 
 
 
     
-![png](/assets/images/2022-08-08/output_21_1.png)
+![png](/assets/img/2022-08-08/output_21_1.png)
     
 
 
@@ -215,7 +218,7 @@ prop = {'size': 10}, loc='upper right');
 
 
     
-![png](/assets/images/2022-08-08/output_24_0.png)
+![png](/assets/img/2022-08-08/output_24_0.png)
     
 
 
@@ -258,5 +261,5 @@ iwy.interact(Longitudinal,k=(1,60,5)); #Armo un slider que vaya desde 1 a 60 de 
 ```
 
 
-    interactive(children=(IntSlider(value=30, description='k', max=60, min=1, step=5), Output()), _dom_classes=('w…
+interactive(children=(IntSlider(value=30, description='k', max=60, min=1, step=5), Output()), _dom_classes=('w…
 

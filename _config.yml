@@ -1,111 +1,29 @@
-# Configs for pwills.com
+# Site Build Settings
 
-title: "RemusEzequiel"
-#name: ""
-email: remusezequiel@gmail.com
-url: "remusezequiel.github.io"
-repository: "remusezequiel/remusezequiel.github.io"
+# Jekyll-paginate-v2 configuration
+#  pagination:
+#   enabled: true
+#   per_page: 5
+#   permalink: '/page/:num/'
+#   title: ':title - page :num of :max'
+#   limit: 0
+#   sort_field: 'date'
+#   sort_reverse: true
 
-include:
-  - _pages
-  - assets
-  - index.html
-exclude:
-  - TODO.md
-  - README.md
-  - "*.org"
-  - "*ltximg*"
-
-plugins:
-  - jekyll-feed
-  - jekyll-remote-theme
-  - jekyll-include-cache
+# jekyll-paginate configuration
+paginate:            5
 
 # Build settings
-markdown: kramdown
-# theme: "minimal-mistakes-jekyll"
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark"
-  
-# settings for author profile
-author:
-  name   : "Ezequiel Remus"
-  avatar : "/assets/images/me.png"
-  bio    : "Estudiante De Ciencias Fisicas."
-  location: "Buenos Aires, Arg"
-  github : remusezequiel
-  linkedin: remusezequiel
-  email  : ezequielremus@gmail.com
+markdown:            kramdown
+highlighter:         rouge
+permalink:           /:title
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title:		           'Variables Ocultas'
+description:	       'Un blog a modo de portfolio'
+author:              'Ezequiel Remus'
 
-# site footer
-footer:
-  links:
-    - label: "Github"
-      # icon: "fab fa-fw fagithub"
-      url: "https://github.com/remusezequiel"
-
-# # comments by disqus
-comments:
-  provider: "disqus"
-  
-
-analytics:
-  provider: "google"
-  google:
-    tracking_id: "UA-116208936-1"
-
-
-# pagination for blog page
-paginate: 5 # number of posts to show
-paginate_path: /page:num/
-
-# default YAML front matter
-defaults:
-  # all
-  - scope:
-      path: ""
-    values:
-      layout: single
-      mathjax: true
-      author_profile: true
-      class: wide
-      title: " "
-      title_separator: "|"
-  # posts
-  - scope:
-      type: posts
-    values:
-      toc: true
-      toc_label: "Contents"
-      read_time: false
-      comments: true
-  # portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      author_profile: false
-      excerpt: ""
-      sidebar:
-        nav: "portfolio"
-
-# collections
-collections:
-  portfolio:
-    output: true
-
-
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
-
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml

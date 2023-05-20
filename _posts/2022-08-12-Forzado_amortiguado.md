@@ -1,9 +1,12 @@
 ---
+layout: post
 title: "Oscilaciones Forzadas"
-category: posts
+category: [Fisica, Fisica de Ondas]
+tags: [Fisica,Python]
 date: 2022-08-12 18:32:20 +0000
 excerpt: "Analizamos el problema de oscilaciones forzadas en una dimensión."
 comments: true
+image: /2022-08-12/output_3_0.png
 ---
 
 ## Osilaciones Forzadas
@@ -135,7 +138,7 @@ plt.show()
 
 
     
-![png](/assets/images/2022-08-12/output_3_0.png)
+![png](/assets/img/2022-08-12/output_3_0.png)
     
 
 
@@ -171,7 +174,7 @@ leg = ax.legend();
 
 
     
-![png](/assets/images/2022-08-12/output_5_0.png)
+![png](/assets/img/2022-08-12/output_5_0.png)
     
 
 
@@ -202,15 +205,18 @@ plt.show()
 
 
     
-![png](/assets/images/2022-08-12/output_7_0.png)
+![png](/assets/img/2022-08-12/output_7_0.png)
     
 
 
 3) Caso sobreamortiguado: $$\omega_0^2<\frac{\Gamma^2}{4}$$
 
-Ahora nuestro problema cambia de régimen. Tenemos un problema (que no es tan problemático en realidad). Ahora $$\omega_1$$ es un número complejo!! Escribimos $$\omega_1=i|\omega_1|$$. Les dejo a ustedes probar que $$\cos(ix)=\cosh(x)$$. (Probar esto es ejercicio de ustedes).
+Ahora nuestro problema cambia de régimen. Tenemos un problema (que no es tan problemático en realidad). 
 
-Para esto recuerden que el coseno hiperbólico se puede escribir como suma de exponenciales (y el coseno?). Para convencerse pueden fijarse en el plot qué pasa si en vez de escribir $$np.\cos$, escriben $np.\cosh$$
+Ahora $\omega_1$ es un número complejo!! Escribimos $\omega_1=i|\omega_1|$. Les dejo a ustedes probar que $\cos(ix)=\cosh(x)$. 
+(Probar esto es ejercicio de ustedes).
+
+Para esto recuerden que el coseno hiperbólico se puede escribir como suma de exponenciales (y el coseno?). Para convencerse pueden fijarse en el plot qué pasa si en vez de escribir $np.\cos$, escriben $np.\cosh$
 
 
 ```python
@@ -227,7 +233,7 @@ plt.show()
 
 
     
-![png](/assets/images/2022-08-12/output_9_0.png)
+![png](/assets/img/2022-08-12/output_9_0.png)
     
 
 
@@ -284,7 +290,7 @@ plt.legend(); #este ; del final lo pongo para que no aparezca un mensaje feo aba
 
 
     
-![png](/assets/images/2022-08-12/output_11_0.png)
+![png](/assets/img/2022-08-12/output_11_0.png)
     
 
 
@@ -320,7 +326,7 @@ plt.legend(loc = [1,0.3]);
 
 
     
-![png](/assets/images/2022-08-12/output_14_0.png)
+![png](/assets/img/2022-08-12/output_14_0.png)
     
 
 
@@ -382,7 +388,7 @@ plt.legend(); #este ; del final lo pongo para que no aparezca un mensaje feo aba
 
 
     
-![png](/assets/images/2022-08-12/output_17_0.png)
+![png](/assets/img/2022-08-12/output_17_0.png)
     
 
 

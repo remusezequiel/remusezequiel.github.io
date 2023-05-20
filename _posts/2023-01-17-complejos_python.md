@@ -1,6 +1,8 @@
 ---
+layout: post
 title: "Complejos en python"
-category: posts
+category: [Matematicas, Analisis Complejo]
+tags: [Complejos,Python]
 date: 2023-01-17 18:32:20 +0000
 excerpt: "Jugamos un poco con numeros complejos en python."
 comments: true
@@ -213,7 +215,7 @@ plt.show()
 
     
 
-![png](/assets/images/2023-01-17/output_14_0.png)
+![png](/assets/img/2023-01-17/output_14_0.png)
     
 
 
@@ -257,14 +259,14 @@ ax.set_ylabel("$\mathrm{Im}(z)$", fontsize=16)
 
 
 
-    Text(0, 0.5, '$\\mathrm{Im}(z)$')
+Text(0, 0.5, '$\\mathrm{Im}(z)$')
 
 
 
 
     
 
-![png](/assets/images/2023-01-17/output_16_1.png)
+![png](/assets/img/2023-01-17/output_16_1.png)
     
 
 
@@ -301,11 +303,8 @@ plt.show()
 
 
     
-![png](/assets/images/2023-01-17/output_18_0.png)
+![png](/assets/img/2023-01-17/output_18_0.png)
     
 
 
 
-```python
-
-```
