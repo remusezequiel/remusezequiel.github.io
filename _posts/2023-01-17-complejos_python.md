@@ -6,6 +6,7 @@ tags: [Complejos,Python]
 date: 2023-01-17 18:32:20 +0000
 excerpt: "Jugamos un poco con numeros complejos en python."
 comments: true
+image: 2023-01-17/output_18_0.png
 ---
 
 # Manejo de numeros complejos en python

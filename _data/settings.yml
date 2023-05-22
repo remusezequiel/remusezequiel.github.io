@@ -11,6 +11,7 @@ menu:
 - {name: 'Posteos', url: 'writing.html'}
 - {name: 'Contacto', url: 'contact.html'}
 - {name: 'Acerca',   url: 'about/index.html'}
+- {name: 'C.V.',   url: 'cv/index.html'}
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
 - {icon: 'github',     link: 'https://github.com/remusezequiel'}
