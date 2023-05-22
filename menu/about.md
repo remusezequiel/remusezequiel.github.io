@@ -12,6 +12,10 @@ empezamos esta pagina, la cual tiene como proposito el almacenamiento de trabajo
 
 Tambien esta dedicada al almacenamiento de apuntes con dos objetivos principales los cuales son: *No perder los pdfs* y por otro lado *Compartirlos al que le interece leerlos*.
 
+## Por otro lado...
+
+Esta pagina esta creada en Jekyll, basandome en el theme `Lagrange` el cual se aloja [Aqui](https://github.com/LeNPaul/Lagrange)
+
 
 
   
