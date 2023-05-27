@@ -23,9 +23,6 @@
 <loc>http://localhost:4000/apuntes/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/contact</loc>
-</url>
-<url>
 <loc>http://localhost:4000/cv/</loc>
 </url>
 <url>
@@ -33,6 +30,10 @@
 </url>
 <url>
 <loc>http://localhost:4000/writing</loc>
+</url>
+<url>
+<loc>http://localhost:4000/assets/docs/Curriculum_EzequielRemus.pdf</loc>
+<lastmod>2023-05-26T23:04:04-03:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/assets/docs/Magnetismo.pdf</loc>

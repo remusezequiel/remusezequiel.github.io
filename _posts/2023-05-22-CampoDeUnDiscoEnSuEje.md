@@ -12,20 +12,20 @@ image: /2023-05-22/output_16_0.png
 
 
 
-En esta ocación vamos a calcular el campo eléctrico que produce un disco homogeneo de radio $R$ con densidad superficial $\sigma$ constante, en los puntos del espacio a lo largo del eje del disco (Es decir, el campo sobre el eje z de la figura. La figura sale del Libro de Roederer).
+En esta ocasión vamos a calcular el campo eléctrico que produce un disco homogéneo de radio $R$ con densidad superficial $\sigma$ constante, en los puntos del espacio a lo largo del eje del disco (Es decir, el campo sobre el eje z de la figura. La figura sale del Libro de Roederer).
 
 ![.JPG](/assets/img/2023-05-22/1.JPG)
 
-Para esto debemos utilizar el metodo de integración directa para el calculo del campo eléctrico. 
+Para esto debemos utilizar el método de integración directa para el calculo del campo eléctrico. 
 
-Recordemos que el campo eléctrico para una distribución superficial de carga se puede calcular segun la integral 
+Recordemos que el campo eléctrico para una distribución superficial de carga se puede calcular según la integral
 \begin{equation}
 \vec{E}(\vec{r}) = \frac{1}{4\pi\epsilon_0} \int_{S} \frac{\sigma(\vec{r}')(\vec{r} - \vec{r}')}{\Vert \vec{r} - \vec{r}'\Vert^3}dS'
 \end{equation}
 
-Ahora, un cachito de disco, por ejemplo el diferencial $\delta S$ de la figura, producira un cierto campo $\delta \vec{E}$ sobre el eje z, además va a tener la dirección del vector que une a $\delta S$ con ese punto del espacio, digamos el $\vec{P}$ de la figura, culla distancia a $\delta S$ estara dada por $\vec{r}_0$.
+Ahora, un cachito de disco, por ejemplo el diferencial $\delta S$ de la figura, producirá un cierto campo $\delta \vec{E}$ sobre el eje z, además va a tener la dirección del vector que une a $\delta S$ con ese punto del espacio, digamos el $\vec{P}$ de la figura, cuya distancia a $\delta S$ estará dada por $\vec{r}_0$.
 
-Entoces, debemos preguntarnos ¿Quién es $\delta S$? para asi conocemos quien es
+Entonces, debemos preguntarnos ¿Quién es $\delta S$? para así conocemos quien es
 $\delta \vec{E}$.
 
 Podemos observar que
@@ -34,7 +34,7 @@ $$\delta S = r dr d\varphi$$
 Por otro lado, el modulo de $\vec{r}_0$ es
 $$\Vert \vec{r}_0 \Vert = r_0= \sqrt{r^2 + z_0}$$
 
-Por definicion, el modulo de un campo $\vec{E}$ esta dado por
+Por definición, el modulo de un campo $\vec{E}$ esta dado por
 $$\Vert \vec{E} \Vert = \frac{1}{4\pi\epsilon_0} q_f \frac{\vec{r_p} - \vec{r_f}}{\Vert\vec{r_p} - \vec{r_f}\Vert^2}$$
 
 donde naturalmente $\vec{r_p}$ es la posición del punto campo y $\vec{r_f}$ la de la fuente, siendo $q_f$ la fuente del campo.
@@ -45,7 +45,7 @@ Nos quedan por identificar entonces, quien es $\vec{r_p} - \vec{r_f}$.
 
 > $\vec{r_p}$: son todos los puntos de prueba, en este caso habiamos tomado el eje $z$, por ende $\vec{r_p} = (0,0,z)$
 
-En conclusión, nos queda para resolver la siguiente integral
+ En conclusión, nos queda para resolver la siguiente integral
 $$\vec{E}(\vec{0,0,z}) = \frac{1}{4\pi\epsilon_0} \int_{0}^{R} \int_{0}^{2\pi} \sigma \frac{(r' \cos{\varphi},r' \sin{\varphi} ,0) - (0,0,z)}{\Vert (r' \cos{\varphi},r' \sin{\varphi} ,0) - (0,0,z) \Vert^3} r dr d\varphi $$
 
 ¿Es un asquito, no?
@@ -54,9 +54,10 @@ En realidad, no es tan terrible, solo asusta un poco y sale.
 
 Peeeero, podemos pedirle ayuda a `python`. 
 
-`Python` tiene una libreria que se llama `Sympy` ([cuya documentación esta acá](https://docs.sympy.org/latest/index.html)) que tiene un monton de herramientas para calculo simbolico y en particular, podemos definir la integral a integrar e integrarla. Pero, hay que tener un toque de cuidado, porque no es simplemente poner los datos y punto, hay que hacer una pequeña interpretación de lo que debemos hacer.
+`Python` tiene una librería que se llama `Sympy` ([cuya documentación esta acá](https://docs.sympy.org/latest/index.html)) que tiene un montón de herramientas para calculo simbólico y en particular, podemos definir la integral a integrar e integrarla. Pero, hay que tener un toque de cuidado, porque no es simplemente poner los datos y punto, hay que hacer una pequeña interpretación de lo que debemos hacer.
 
 Veamos como es esto. Primero importemos lo necesario.
+
 
 
 ```python
