@@ -18,3 +18,5 @@ me avise por mail.
 > Apuntes de Algebra: [Definiciones de Algebra Lineal](/assets/docs/Resumen_Teorico_De_Algebra_Lineal.pdf)
 
 > Apuntes de Magnetostatica: [Definiciones de Magnetostatica](/assets/docs/Magnetismo.pdf)
+
+> Apuntes de Ondas: [Optica Geometrica](/assets/docs/Optica_Geometrica.pdf)

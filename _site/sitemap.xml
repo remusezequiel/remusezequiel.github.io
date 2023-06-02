@@ -23,6 +23,9 @@
 <loc>http://localhost:4000/apuntes/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/contact</loc>
+</url>
+<url>
 <loc>http://localhost:4000/cv/</loc>
 </url>
 <url>
@@ -38,6 +41,10 @@
 <url>
 <loc>http://localhost:4000/assets/docs/Magnetismo.pdf</loc>
 <lastmod>2023-05-19T17:31:09-03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/docs/Optica_Geometrica.pdf</loc>
+<lastmod>2023-06-01T22:58:32-03:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/assets/docs/Resumen_Teorico_De_Algebra_Lineal.pdf</loc>
