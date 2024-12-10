@@ -9,8 +9,10 @@ google-ID: 'UA-112060364-1'
 menu:
 - {name: 'Apuntes', url: 'apuntes/index.html'}
 - {name: 'Posteos', url: 'writing.html'}
-- {name: 'Acerca',   url: 'about/index.html'}
-- {name: 'C.V.',   url: 'cv/index.html'}
+- {name: 'Proyectos',   url: 'proyectos/index.html'}
+  {name: 'Acerca de Mi',   url: 'about/index.html'}
+  {name: 'C.V.',   url: 'cv/index.html'}
+
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
 - {icon: 'github',     link: 'https://github.com/remusezequiel'}
