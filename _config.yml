@@ -1,0 +1,52 @@
+### Site Settings ###
+title               : Portfolio
+description         : >-
+                      No hay que olvidar que 
+                      la ciencia no es absoluta
+                      sino una forma de aproximarse a la realidad.
+baseurl             :             # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : remusezequiel/remusezequiel.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : yousinix/portfolYOU
+open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  - documentation/partials/**                           # For Documentation Only
+
+
+### Author Info ###
+author:
+  name              : Ezequiel Remus
+  image             : /assets/img/me.png
+#  behance           : your_username
+# dribbble          : your_username
+  email             : ezequielremus@gmail.com
+#  facebook          : your_username
+  github            : remusezequiel
+# gitlab            : your_username
+# instagram         : your_username
+# kaggle            : your_username
+  linkedin          : Ezequiel Remus
+#  medium            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+#  twitter           : your_username
+# vimeo             : your_username
+# youtube           : your_channel_name
+# keybase           : your_username
+
+
+### Posts ###
+permalink: /blog/:title
