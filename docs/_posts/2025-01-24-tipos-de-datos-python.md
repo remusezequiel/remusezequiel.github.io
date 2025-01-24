@@ -4,6 +4,7 @@ tags: [python, tipo de datos]
 style: border
 color: primary
 description: En este post, estudiamos los distintos tipos de datos en python. Aprenderemos a utilizar numeros, cadenas de caracteres, listas y demas tipos de datos.
+mathjax: true
 ---
 
 
