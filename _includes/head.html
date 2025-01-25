@@ -37,4 +37,7 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
+  {% if page.use_math %}  
+    {% include mathjax_support.html %}
+  {% endif %}
 </head>

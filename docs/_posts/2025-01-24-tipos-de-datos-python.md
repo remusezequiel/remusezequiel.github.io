@@ -4,9 +4,8 @@ tags: [python, tipo de datos]
 style: border
 color: primary
 description: En este post, estudiamos los distintos tipos de datos en python. Aprenderemos a utilizar numeros, cadenas de caracteres, listas y demas tipos de datos.
-mathjax: true
+math: true
 ---
-
 
 
 # **Números y strings**
@@ -42,9 +41,9 @@ print(type(e))
 
 Por supuesto, hay límites al tamaño de las variables que se pueden guardar en memoria.
 
-En el caso de números con coma flotante, el número más grande posible (en módulo) es cercano a $1.8 \times 10^{308}$, mientras que el número con coma flotante positivo más pequelo es $5 \times 10^{-324}$.
+En el caso de números con coma flotante, el número más grande posible (en módulo) es cercano a \\(1.8 \times 10^{308}\\), mientras que el número con coma flotante positivo más pequelo es  \(5 \times 10^{-324}\).
 
-Todo lo que está por arriba de $1.8 \times 10^{308}$ es infinito y todo lo que está por debajo de $5 \times 10^{-324}$ es 0.
+Todo lo que está por arriba de \(1.8 \times 10^{308}\) es infinito y todo lo que está por debajo de \(5 \times 10^{-324}\) es 0.
 
 
 ```python
