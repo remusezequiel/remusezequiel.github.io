@@ -1,9 +1,7 @@
 ### Site Settings ###
 title               : Portfolio
 description         : >-
-                      No hay que olvidar que 
-                      la ciencia no es absoluta
-                      sino una forma de aproximarse a la realidad.
+                      Data Scientist. Complex Systems and Physics lover.
 baseurl             :             # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : remusezequiel/remusezequiel.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : yousinix/portfolYOU
